@@ -5,23 +5,77 @@ This repo contains documentation, commands, and scripts related to encryption an
 
 ---
 
-## 📚 Contents
+# Encryption_Project
 
-- `bash-commands.md` — A collection of useful Kali Linux commands and examples  
-- `README.md` — This project overview and instructions  
-- `logs/` — (Optional) Folder containing recorded terminal sessions and logs  
-- Scripts and tools for encryption and security analysis
+## Project Overview
+
+This repository contains various tools, scripts, and documentation related to encryption and security analysis practice. The goal is to build practical encryption utilities and workflows for securing sensitive data and automating related tasks.
 
 ---
 
-## 🚀 Getting Started
 
-To start documenting your commands:
+## Repository Structure
 
-1. Edit `bash-commands.md` to add your Kali Linux commands and notes.
-2. Use Git to commit and push your changes regularly.
+Encryption_Project/
+│
+├── scripts/ # Shell scripts for mounting, locking, and setup of encrypted vaults
+│ ├── mount_vault.sh # Mount encrypted vault securely
+│ ├── setup_vault.sh # Setup environment for vault usage
+│ └── lock_vault.sh # Lock and secure the vault
+│
+├── logs/ # Recorded terminal sessions and logs for documentation
+│
+├── README.md # This documentation file
+│
+└── other project files # (Add other files here as your project grows)
 
-Example command to edit:
+yaml
+Copy code
+
+---
+
+## Scripts Folder
+
+The `scripts/` folder contains shell scripts designed to assist with encryption project tasks:
+
+- `mount_vault.sh` — Script to mount encrypted vaults securely.
+- `setup_vault.sh` — Setup script to configure the vault environment.
+- `lock_vault.sh` — Script to lock and secure the vault when not in use.
+
+### How to Use the Scripts
+
+1. Ensure scripts have execute permission:
 
 ```bash
-nano bash-commands.md
+chmod +x scripts/*.sh
+Run the scripts as needed:
+
+bash
+Copy code
+./scripts/mount_vault.sh
+./scripts/setup_vault.sh
+./scripts/lock_vault.sh
+
+
+
+
+
+
+
+
+
+How to Contribute
+Feel free to fork this repository and submit pull requests if you want to add new scripts, tools, or improve documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
